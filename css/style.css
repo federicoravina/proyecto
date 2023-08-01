@@ -58,10 +58,10 @@ img{
 
 .menu{
     border: px solid  black;
-    width: 375px;
+    width: 100%;
     position: absolute;
     right: 0;
-    top: -35px;
+    top: -10px;
     z-index: -1;
     transition: 300ms;
 
