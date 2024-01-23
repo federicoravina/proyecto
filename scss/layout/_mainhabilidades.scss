@@ -1,0 +1,40 @@
+.habilidades{
+    background-color: #25142D;
+    display: grid;
+    grid-template-rows: repeat(6, 85px);
+    justify-items: center;
+   
+             .titulo{
+                color: white;
+                
+             }
+             .facilidad{
+               
+               h4{
+                  color: white;
+               }
+             }
+             .lenguage{
+               @extend .facilidad;
+
+             }
+             .desarrollo{
+               @extend .facilidad;
+             }
+             .redes{
+               @extend .facilidad;
+             }
+             .empatia{
+               @extend .facilidad;
+             }
+             .planificacion{
+               @extend .facilidad;
+             }
+             .pensamiento{
+               @extend .facilidad;
+             }
+             .nube{
+               @extend .facilidad;
+             }
+
+}

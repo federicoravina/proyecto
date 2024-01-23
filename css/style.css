@@ -7,8 +7,7 @@
   background-color: #25142D;
   display: grid;
   grid-template-rows: repeat(6, 85px);
-  position: relative;
-  z-index: -2; }
+  position: relative; }
   .inicio .name {
     justify-self: center;
     align-self: center;
@@ -37,6 +36,16 @@
       text-align: center;
       color: azure;
       top: 25px; }
+
+.habilidades {
+  background-color: #25142D;
+  display: grid;
+  grid-template-rows: repeat(6, 85px);
+  justify-items: center; }
+  .habilidades .titulo {
+    color: white; }
+  .habilidades .facilidad h4, .habilidades .lenguage h4, .habilidades .desarrollo h4, .habilidades .redes h4, .habilidades .empatia h4, .habilidades .planificacion h4, .habilidades .pensamiento h4, .habilidades .nube h4 {
+    color: white; }
 
 footer {
   display: flex;
