@@ -1,0 +1,15 @@
+.sobremi{
+    background-color: #25142D;
+    display: grid;
+    grid-template-rows: repeat(9, 57px);
+    justify-items: center;
+    align-items: center;
+    .titulo{
+        color: #DC3545;
+              font-family: "Rampart One";
+              font-size: 3rem;
+              font-style: normal;
+              font-weight: 400;
+              line-height: normal;
+    }
+}

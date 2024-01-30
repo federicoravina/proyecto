@@ -1,17 +1,23 @@
 .habilidades{
     background-color: #25142D;
     display: grid;
-    grid-template-rows: repeat(6, 85px);
+    grid-template-rows: repeat(9, 57px);
     justify-items: center;
+    align-items: center;
    
              .titulo{
-                color: white;
+              color: #DC3545;
+              font-family: "Rampart One";
+              font-size: 3rem;
+              font-style: normal;
+              font-weight: 400;
+              line-height: normal;
                 
              }
              .facilidad{
                
                h4{
-                  color: white;
+                  color: #DC3545;
                }
              }
              .lenguage{
