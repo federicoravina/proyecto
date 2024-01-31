@@ -97,12 +97,28 @@
     font-weight: 400;
     line-height: normal; }
   .experiencia .ultima {
-    grid-row: 2/4;
+    grid-row: 3/5;
     text-align: center; }
     .experiencia .ultima .hipermay {
       color: #DC3545;
       text-align: center; }
     .experiencia .ultima .año {
+      color: #DC3545;
+      text-align: center; }
+  .experiencia .anteultima {
+    grid-row: 5/7; }
+    .experiencia .anteultima .visio {
+      color: #DC3545;
+      text-align: center; }
+    .experiencia .anteultima .año {
+      color: #DC3545;
+      text-align: center; }
+  .experiencia .penultima {
+    grid-row: 7/9; }
+    .experiencia .penultima .modul {
+      color: #DC3545;
+      text-align: center; }
+    .experiencia .penultima .año {
       color: #DC3545;
       text-align: center; }
 

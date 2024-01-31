@@ -15,7 +15,7 @@
     }
 
     .ultima {
-        grid-row: 2/4;
+        grid-row: 3/5;
         text-align: center;
 
         .hipermay {
@@ -28,5 +28,28 @@
             text-align: center;
         }
     }
+    .anteultima{
+        grid-row: 5/7;
+        .visio{
+            color: #DC3545;
+            text-align: center;
+        }
+        .año{
+            color: #DC3545;
+            text-align: center;
+        }
+    }
+    .penultima{
+        grid-row: 7/9;
+        .modul{
+            color: #DC3545;
+            text-align: center;
+        }
+        .año{
+            color: #DC3545;
+            text-align: center;
+        }
+    }
+
 
 }
