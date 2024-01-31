@@ -1,32 +1,96 @@
-.sobremi{
+.sobremi {
     background-color: #25142D;
     display: grid;
-    grid-template-rows: repeat(9, 57px);
+    grid-template-rows: repeat(18, 57px);
     justify-items: center;
     align-items: center;
-    .titulo{
+
+    .titulo {
         color: #DC3545;
-              font-family: "Rampart One";
-              font-size: 3rem;
-              font-style: normal;
-              font-weight: 400;
-              line-height: normal;
+        font-family: "Rampart One";
+        font-size: 3rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
     }
-    .fecha{
+
+    .fecha {
         grid-row: 2/3;
         color: #DC3545;
         justify-self: end;
-       
-        
+
+
     }
-    .info{
+
+    .info {
         grid-row: 3/7;
         align-self: start;
-        
        
-        .miprecentacion{
+
+
+        .miprecentacion {
             color: #DC3545;
             text-align: center;
         }
     }
+
+    .interes {
+        grid-row: 8/10;
+
+        .miinteres {
+            color: #DC3545;
+            text-align: center;
+            font-family: "Rampart One";
+        }
+
+        .gustos {
+            display: flex;
+            justify-content: space-between;
+            width: 200px;
+
+            .fila1 {
+                i {
+                    display: flex;
+                    flex-wrap: wrap;
+                    color: #DC3545;
+                    font-size: 1rem;
+                }
+            }
+            .fila2{
+                i {
+                    display: flex;
+                    flex-wrap: wrap;
+                    color: #DC3545;
+                    font-size: 1rem;
+                }
+            }
+        }
+
+
+    }
+    .datospersonales{
+        grid-row: 10/14;
+        
+        .datos{
+            color: #DC3545;
+            font-family: "Rampart One";
+        }
+        .fila3{
+            display: flex;
+            flex-direction: column;
+            
+            i{
+                color: #DC3545;
+                text-align: start;
+            }
+
+        }
+    }
+    .mapa{
+        grid-row: 14/18;
+        border: 8px solid;
+        border-color: #DC3545;
+    }
+
+ 
 }

@@ -125,7 +125,7 @@
 .sobremi {
   background-color: #25142D;
   display: grid;
-  grid-template-rows: repeat(9, 57px);
+  grid-template-rows: repeat(18, 57px);
   justify-items: center;
   align-items: center; }
   .sobremi .titulo {
@@ -145,6 +145,41 @@
     .sobremi .info .miprecentacion {
       color: #DC3545;
       text-align: center; }
+  .sobremi .interes {
+    grid-row: 8/10; }
+    .sobremi .interes .miinteres {
+      color: #DC3545;
+      text-align: center;
+      font-family: "Rampart One"; }
+    .sobremi .interes .gustos {
+      display: flex;
+      justify-content: space-between;
+      width: 200px; }
+      .sobremi .interes .gustos .fila1 i {
+        display: flex;
+        flex-wrap: wrap;
+        color: #DC3545;
+        font-size: 1rem; }
+      .sobremi .interes .gustos .fila2 i {
+        display: flex;
+        flex-wrap: wrap;
+        color: #DC3545;
+        font-size: 1rem; }
+  .sobremi .datospersonales {
+    grid-row: 10/14; }
+    .sobremi .datospersonales .datos {
+      color: #DC3545;
+      font-family: "Rampart One"; }
+    .sobremi .datospersonales .fila3 {
+      display: flex;
+      flex-direction: column; }
+      .sobremi .datospersonales .fila3 i {
+        color: #DC3545;
+        text-align: start; }
+  .sobremi .mapa {
+    grid-row: 14/18;
+    border: 8px solid;
+    border-color: #DC3545; }
 
 footer {
   display: flex;
