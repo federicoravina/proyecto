@@ -135,6 +135,16 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal; }
+  .sobremi .fecha {
+    grid-row: 2/3;
+    color: #DC3545;
+    justify-self: end; }
+  .sobremi .info {
+    grid-row: 3/7;
+    align-self: start; }
+    .sobremi .info .miprecentacion {
+      color: #DC3545;
+      text-align: center; }
 
 footer {
   display: flex;
