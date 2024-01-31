@@ -1,11 +1,23 @@
-.barra{
-    .navbar{
-        .navbar-brand{
-            .logo{
-                width: 4rem;
-                height: 4rem;
+.barra {
+    .navbar {
+        font-family: "Rampart One";
+        font-size: 1.6rem;
+        .container-fluid {
+            .navbar-brand {
+                
+                .logo {
+                    width: 4rem;
+                    height: 4rem;
+                }
+            }
+        }
+        .collapse {
+            .navbar-nav {
+                .nav-item {
+                    .nav-link {
+                    }
+                }
             }
         }
     }
-
 }

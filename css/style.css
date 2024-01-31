@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,600;1,300&family=Rampart+One&display=swap");
 * {
   padding: 0;
@@ -67,6 +68,20 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal; }
+  .formacion .secundario {
+    grid-row: 2/4;
+    text-align: center; }
+    .formacion .secundario .subtitulo {
+      color: #DC3545; }
+    .formacion .secundario .nombre {
+      color: #DC3545; }
+  .formacion .desarrolloweb {
+    grid-row: 4/6;
+    text-align: center; }
+    .formacion .desarrolloweb .subtitulo {
+      color: #DC3545; }
+    .formacion .desarrolloweb .nombre {
+      color: #DC3545; }
 
 .experiencia {
   background-color: #25142D;
@@ -81,6 +96,15 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal; }
+  .experiencia .ultima {
+    grid-row: 2/4;
+    text-align: center; }
+    .experiencia .ultima .hipermay {
+      color: #DC3545;
+      text-align: center; }
+    .experiencia .ultima .año {
+      color: #DC3545;
+      text-align: center; }
 
 .sobremi {
   background-color: #25142D;
@@ -110,6 +134,9 @@ footer {
     text-align: center;
     color: #25142D; }
 
-.barra .navbar .navbar-brand .logo {
-  width: 4rem;
-  height: 4rem; }
+.barra .navbar {
+  font-family: "Rampart One";
+  font-size: 1.6rem; }
+  .barra .navbar .container-fluid .navbar-brand .logo {
+    width: 4rem;
+    height: 4rem; }

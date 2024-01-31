@@ -1,15 +1,38 @@
-.formacion{
+.formacion {
     background-color: #25142D;
     display: grid;
     grid-template-rows: repeat(9, 57px);
     justify-items: center;
     align-items: center;
-    .titulo{
+
+    .titulo {
         color: #DC3545;
-              font-family: "Rampart One";
-              font-size: 3rem;
-              font-style: normal;
-              font-weight: 400;
-              line-height: normal;
+        font-family: "Rampart One";
+        font-size: 3rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
     }
+    .secundario{
+        grid-row: 2/4;
+        text-align: center;
+        .subtitulo{
+            color: #DC3545;
+        }
+        .nombre{
+            color: #DC3545;
+        }
+    }
+    .desarrolloweb{
+        grid-row: 4/6;
+        text-align: center;
+        .subtitulo{
+            color: #DC3545;
+        }
+        .nombre{
+            color: #DC3545;
+        }
+    }
+
+   
 }
