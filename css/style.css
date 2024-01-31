@@ -179,7 +179,8 @@
   .sobremi .mapa {
     grid-row: 14/18;
     border: 8px solid;
-    border-color: #DC3545; }
+    border-color: #DC3545;
+    height: 16.6rem; }
 
 footer {
   display: flex;
